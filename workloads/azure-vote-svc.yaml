@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: known-hosts-public-repo
-  name: vote-back
+  name: vote-back-known-hosts-public-repo
   labels:
     name: vote-back
 spec:
@@ -14,8 +13,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: known-hosts-public-repo
-  name: vote-front
+  name: vote-front-known-hosts-public-repo
   labels:
     name: vote-front
 spec:
